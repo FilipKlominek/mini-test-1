@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.div {
+    display: flex;
+}
+
+.top {
+    background-color: blue;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.bottom {
+    background-color: red;
+    height: 50vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.top .square {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.bottom .square {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
